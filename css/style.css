@@ -1,2 +1,56 @@
 @charset "UTF-8";
 
+/*
+    Paleta de Cores
+    #648C81
+    #B4BFB9
+    #CED9D5
+    #f2f2f2
+
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #648C81;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden; /*esconde o conteúdo que estrapola os limites do container*/
+
+    background-color: #f2f2f2;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #648C81 url(../image/pexels-emiliano-fanti-2347105.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
