@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) { /*Config. para tablet*/
 
-    body {
+    body, html {
         background-image: linear-gradient(to top, #648C81, #CED9D5);
     }
 
@@ -25,7 +25,7 @@
 
 @media screen and (min-width: 992px) { /*Config. telas grandes*/
     
-    body {
+    body, html {
         background-image: linear-gradient(to top, #648C81, #CED9D5);
     }
     
